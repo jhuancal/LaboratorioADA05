@@ -1,0 +1,12 @@
+{
+  "name": "unsa-ada-lab05-trafico-ejercicios-7-8-9",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema Inteligente de Rutas, Tráfico y Mente Colmena (Arequipa) - UNSA ADA Laboratorio 05 (Ejercicios 7, 8 y 9)",
+  "scripts": {
+    "build:cpp": "g++ -O3 -std=c++20 -Wall -Wextra -Icpp_engine/include cpp_engine/src/cli_engine.cpp -o cpp_engine/bin/engine.exe",
+    "build:frontend": "npm --prefix frontend run build",
+    "start:backend": "npm --prefix backend start",
+    "dev:frontend": "npm --prefix frontend run dev"
+  }
+}
